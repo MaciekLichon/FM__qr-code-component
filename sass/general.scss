@@ -1,0 +1,12 @@
+@import './variables.scss';
+
+
+body {
+  background-color: $clr-200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: $ff-regular;
+  font-size: $fs-regular;
+}

@@ -1,0 +1,39 @@
+@import './variables.scss';
+@import './reset.scss';
+@import './general.scss';
+
+.card {
+  max-width: 320px;
+  padding: 16px 16px 40px 16px;
+
+  background-color: $clr-100;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  .card__image {
+    border-radius: 10px;
+  }
+  
+  .card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+
+    .card__title {
+      font-size: $fs-header;
+      color: $clr-600;
+    }
+    
+    .card__description {
+      color: $clr-300;
+      letter-spacing: 0.19px;
+      padding: 0 16px;
+    }
+  }
+}
+
